@@ -1,16 +1,16 @@
 {
   "name": "excel2array-plus",
   "private": false,
-  "version": "1.0.1",
+  "version": "1.0.0",
   "type": "module",
   "description": "Convert the data copied from the table to an array.",
   "keywords": [
     "typescript",
     "excel"
   ],
-  "main": "excel-to-array.umd.js",
-  "module": "excel-to-array.es.js",
-  "types": "excel-to-array.es.d.ts",
+  "main": "lib/excel-to-array.umd.js",
+  "module": "lib/excel-to-array.es.js",
+  "types": "lib/index.d.ts",
   "files": [
     "lib/*"
   ],
@@ -24,5 +24,14 @@
     "typescript": "^4.6.4",
     "vite": "^3.0.0",
     "vite-plugin-dts": "^1.3.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nio1023/excel2array-plus.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Nio1023/excel2array-plus/issues"
+  },
+  "homepage": "https://github.com/Nio1023/excel2array-plus#readme"
 }
