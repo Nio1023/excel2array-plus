@@ -1,5 +1,5 @@
-[![NPM version][]][npm-url]
-[![Downloads][]][downloads-url]
+[![NPM version][npm-image]][npm-url]
+[![Downloads][downloads-image]][downloads-url]
 
 # excel2array-plus
 
@@ -30,5 +30,7 @@ simon	21	male`
 console.log(excel2array(text))
 ```
 
+[npm-image]: https://img.shields.io/npm/v/excel2array-plus.svg?style=flat-square
 [npm-url]: https://www.npmjs.com/package/excel2array-plus
+[downloads-image]: https://img.shields.io/npm/dm/excel2array-plus.svg?style=flat-square
 [downloads-url]: https://www.npmjs.com/package/excel2array-plus
