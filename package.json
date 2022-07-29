@@ -1,7 +1,7 @@
 {
   "name": "excel2array-plus",
   "private": false,
-  "version": "1.0.1",
+  "version": "1.0.2",
   "type": "module",
   "description": "Convert the data copied from the table to an array.",
   "keywords": [
@@ -29,7 +29,6 @@
     "type": "git",
     "url": "git+https://github.com/Nio1023/excel2array-plus.git"
   },
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Nio1023/excel2array-plus/issues"
   },

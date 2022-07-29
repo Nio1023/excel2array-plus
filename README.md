@@ -8,7 +8,7 @@ The script allows you to convert the data copied from the table to an array
 ## Install
 
 ```sh
-npm i excel2array-plus
+npm i excel2array-plus --save
 ```
 
 ## Usage
