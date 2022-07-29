@@ -5,8 +5,9 @@
   "type": "module",
   "description": "Convert the data copied from the table to an array.",
   "keywords": [
-    "typescript",
-    "excel"
+    "excel",
+    "excel2array",
+    "typescript"
   ],
   "main": "lib/excel2array-plus.umd.js",
   "module": "lib/excel2array-plus.es.js",
