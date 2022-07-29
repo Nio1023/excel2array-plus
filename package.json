@@ -1,15 +1,15 @@
 {
   "name": "excel2array-plus",
   "private": false,
-  "version": "1.0.3",
+  "version": "1.0.4",
   "type": "module",
   "description": "Convert the data copied from the table to an array.",
   "keywords": [
     "typescript",
     "excel"
   ],
-  "main": "lib/excel-to-array.umd.js",
-  "module": "lib/excel-to-array.es.js",
+  "main": "lib/excel2array-plus.umd.js",
+  "module": "lib/excel2array-plus.es.js",
   "types": "lib/index.d.ts",
   "files": [
     "lib/*"
