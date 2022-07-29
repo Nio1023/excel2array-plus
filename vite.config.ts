@@ -11,8 +11,8 @@ export default defineConfig({
   build: {
     lib: {
       entry: resolve(__dirname, "packages/index.ts"),
-      name: "excelToArray",
-      fileName: format => `excel-to-array.${format}.js`,
+      name: "excel2array-plus",
+      fileName: format => `excel2array-plus.${format}.js`,
     },
     outDir: resolve(__dirname, "lib"),
   },
