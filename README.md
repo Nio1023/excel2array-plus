@@ -20,14 +20,14 @@ npm i excel2array-plus --save
 | simon | 21  | male   |
 
 ```ts
-import excel2array from "excel2array-plus"
+import excel2array from "excel2array-plus";
 
 // copy the data from your excel worksheet directly
 let text = `Alice	18	female
 Ben	12	male
-simon	21	male`
+simon	21	male`;
 
-console.log(excel2array(text))
+console.log(excel2array(text));
 ```
 
 [npm-image]: https://img.shields.io/npm/v/excel2array-plus.svg?style=flat-square
