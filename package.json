@@ -1,7 +1,7 @@
 {
   "name": "excel2array-plus",
   "private": false,
-  "version": "1.0.6",
+  "version": "1.0.7",
   "type": "module",
   "description": "Convert the data copied from the table to an array.",
   "keywords": [
