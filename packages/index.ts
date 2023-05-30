@@ -1,15 +1,9 @@
-/*
- * @Author: Nio
- * @Date: 2022-07-19 11:12:05
- * @Description:
- * @FilePath: /excel2array/packages/index.ts
- */
 const regUniversalNewLine = /^(\r\n|\n\r|\r|\n)/;
 const regNextCellNoQuotes = /^[^\t\r\n]+/;
 const regNextEmptyCell = /^\t/;
 
 export default function excel2array(str: string): string[][] {
-  str = str.trim();
+  str = str.trimEnd();
   const arr = [[""]];
   if (str.length === 0) {
     return arr;
